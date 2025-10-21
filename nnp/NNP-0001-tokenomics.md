@@ -82,7 +82,7 @@ This dynamic creates predictable outcomes:
 - **Dilution without growth.** Mining‑style emissions expand supply while doing little to increase paid jobs or retention, pressuring price and confidence.
 - **Decoupled utility.** $NOS accrues value to passive balances instead of the actors who make the marketplace useful.
 
-On the supply side, the situation is fragile. GPUs are not required to post meaningful collateral, so operators can appear and disappear with minimal downside. Without per‑node/device stake, there is little skin in the game to deter spoofing, low‑effort setups, or spam registrations. The result is a higher incidence of flaky workers, queue churn, and a degraded buyer experience especially harmful in a marketplace where value depends on instant, reliable matching.
+On the supply side, the situation is fragile. GPUs are not required to post meaningful collateral, so operators can appear and disappear with minimal downside. Without per‑host/device stake, there is little skin in the game to deter spoofing, low‑effort setups, or spam registrations. The result is a higher incidence of flaky workers, queue churn, and a degraded buyer experience especially harmful in a marketplace where value depends on instant, reliable matching.
 
 Finally, capacity providers are not properly incentivised to stay online. A GPU marketplace is only as good as the capacity it can match right now: deep, dependable supply shrinks wait times, stabilises prices, lifts job success, and unlocks enterprise demand. When rewards flow mainly to passive staking, the network under‑invests in the very readiness and reliability that create durable network effects.
 
@@ -96,7 +96,7 @@ Our design goal is straightforward: pay for the behaviours that make the marketp
 
 1. Emissions must fund growth, not idle balances. Emitted $NOS is directed to eligible GPUs that provide capacity and meet SLAs. The passive host staking pool is intentionally small and can taper as fee share grows, so APR isn’t propped up by dilution.
 2. Bigger or pricier GPUs lock more $NOS via cost‑indexed Smin, creating real skin‑in‑the‑game, raising Sybil cost, and anchoring service quality and availability.
-3. Reward service, not promises. Reputation scores based on factors like uptime, performance, and quality is the primary driver of rewards. Doing better directly translates into higher earnings, failing SLAs reduces weight or makes a node ineligible for rewards or to remain on the network.
+3. Reward service, not promises. Reputation scores based on factors like uptime, performance, and quality is the primary driver of rewards. Doing better directly translates into higher earnings, failing SLAs reduces weight or makes a host ineligible for rewards or to remain on the network.
 4. Incentivise a demand flywheel with rebates. $NOS/dNOS rebates make repeat usage cheaper, improve retention, and convert throughput into lasting token demand, pulling more supply online.
 5. Keep the math boring and auditable. Few parameters, on‑chain metrics, and policy‑tunable constants. Every equation is transparent and easy for the community to verify and govern.
 
@@ -120,11 +120,11 @@ $$S_{min,i} = \beta \frac{C_{m(i)}}{P_{NOS}} H$$
 
 #### 4.1.2 Operational Rules
 
-$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-hour grace period, denoted by $G$, to top up before rewards pause (and/or the node becomes ineligible). Governance can adjust ‘$\beta$’ and ‘$H$’ as market conditions change (risk appetite, utilisation, token volatility).
+$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-hour grace period, denoted by $G$, to top up before rewards pause (and/or the host becomes ineligible). Governance can adjust ‘$\beta$’ and ‘$H$’ as market conditions change (risk appetite, utilisation, token volatility).
 
 #### 4.1.3 Potential Impact
 
-Anchoring the minimum stake to a node’s quoted price per hour means collateral scales with earning power: faster, pricier GPUs must lock more NOS. That creates credible skin‑in‑the‑game and raises the cost of Sybil‑style spam, because every additional device needs its own bond. By dividing the bond by the on‑chain $NOS price, the requirement stays USD‑stable so operators aren’t under or over‑collateralised just because the token moves. As capacity and USD/hr quotes grow, more NOS is locked, forming a structural sink that lowers effective float. And because each device posts its own bond, low‑effort or spoofed workers face a real economic hurdle, which improves reliability and overall network quality for buyers.
+Anchoring the minimum stake to a host’s quoted price per hour means collateral scales with earning power: faster, pricier GPUs must lock more NOS. That creates credible skin‑in‑the‑game and raises the cost of Sybil‑style spam, because every additional device needs its own bond. By dividing the bond by the on‑chain $NOS price, the requirement stays USD‑stable so operators aren’t under or over‑collateralised just because the token moves. As capacity and USD/hr quotes grow, more NOS is locked, forming a structural sink that lowers effective float. And because each device posts its own bond, low‑effort or spoofed workers face a real economic hurdle, which improves reliability and overall network quality for buyers.
 
 Within the collateral window, existing hosts will, from time to time, either be under or over collateralised.  Logic will be introduced to allow hosts to either auto top-up their stake or to make partial withdrawals of their stake.
 
