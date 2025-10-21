@@ -308,7 +308,7 @@ When a host stakes at least Smin and maintains SLA thresholds (strong uptime, pe
 In addition, as more jobs are completed by the suppliers, more $NOS gets contributed to treasury which in turn funds more dNOS and supports the demand flywheel.
 
 <p align="center">
-  <img src="images/nos_locking-mechanic.png" width="500" title="GPU NOS Locking Mechanic">
+  <img src="NNP-0001/nos_locking-mechanic.png" width="500" title="GPU NOS Locking Mechanic">
 </p>
 
 ### 5.2 Demand Side
@@ -318,7 +318,7 @@ In addition, as more jobs are completed by the suppliers, more $NOS gets contrib
 Each purchase earns dNOS that can only be spent back on Nosana. On redemption the dNOS is burned and $NOS is paid from the rebate treasury, lowering the buyer’s effective price without increasing circulating supply. Lower effective cost and a smoother experience drive repeat usage, which lifts paid hours and fee throughput keeping suppliers busy and reinforcing the supply loop.
 
 <p align="center">
-  <img src="images/dnos_rebate_mechanism.png" width="500" title="dNOS Rebate Mechanism">
+  <img src="NNP-0001/dnos_rebate_mechanism.png" width="500" title="dNOS Rebate Mechanism">
 </p>
 
 ---
