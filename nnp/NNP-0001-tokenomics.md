@@ -65,9 +65,9 @@ The goal of the core changes is to provide rewards that reinforce the network.  
 
 The following changes have been discussed and will be presented as separate proposals (January 2026)
 
-**USDC Payments:** Clients can make their payments in USDC as well as FIAT, with increased fee collection, while driving the demand for $NOS.
+- **USDC Payments:** Clients can make their payments in USDC as well as FIAT, with increased fee collection, while driving the demand for $NOS.
 
-**Fair Job Scheduler:** To ensure a fair distribution of client submitted jobs so that one or few host operators cannot monopolise jobs, for jobs which are submitted without advanced GPU selection.
+- **Fair Job Scheduler:** To ensure a fair distribution of client submitted jobs so that one or few host operators cannot monopolise jobs, for jobs which are submitted without advanced GPU selection.
 
 ---
 
@@ -108,12 +108,12 @@ Our design goal is straightforward: pay for the behaviours that make the marketp
 
 Require each host $i$ to lock a minimum stake sized to its advertised hourly cost $C_i$ and a security horizon $H$ hours.  Minimum stake does not bear any APR.  This is replaced by the Host Base Incentive Rewards documented in Section 4.2.2
 
-$$S_{min,i} = \beta \frac{C_i}{P_{NOS}} H$$
+$$S_{min,i} = \beta \frac{C_{m(i)}}{P_{NOS}} H$$
 
 #### 4.1.1 Definitions
 
 - $S_{min,i}$: minimum stake required for device $i$ (in NOS)
-- $C_i$: host advertised price (USD per hour)
+- $C_{m(i)}$: host price based on its market (USD per hour)
 - $P_{NOS}$: oracle price of NOS in USD
 - $H$: collateral window in hours (e.g., 336–720 for 14–30 days)
 - $\beta$: how much of that window’s gross revenue should be posted as collateral to determine the skin in the game.
