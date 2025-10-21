@@ -1,2 +1,1 @@
-# workshop
 # Nosana Network Proposals
