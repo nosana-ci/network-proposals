@@ -1,5 +1,5 @@
 ---
-NNP #: "0001"
+NNP \#: "0001"
 title: Tokenomics
 category: Technical/Protocol
 author: Nosana Team
