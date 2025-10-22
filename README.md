@@ -75,22 +75,10 @@ Notes:
 
 ---
 
-## Roles and Responsibilities
-
-- Authors: Write the NNP, lead discussion, incorporate feedback, and respond to review.
-- Reviewers: Provide constructive feedback, assess feasibility, and alignment.
-- Maintainers/Editors: Enforce format and process, label statuses, coordinate stages.
-- Voters: Participate in the official voting process as defined by Nosana governance.
-
----
-
 ## Voting and Governance
 
 - Voting mechanics, quorum, and thresholds are defined by the Nosana governance framework and may be executed via on-chain mechanisms or approved governance tools.
-- The voting period and requirements will be linked in each NNP under the Vote URL field.
 - Final outcomes are recorded in the NNP and labeled in GitHub.
-
-If you’re unsure about the current governance parameters, link to or reference the latest Governance docs from your NNP.
 
 ---
 
