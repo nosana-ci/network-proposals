@@ -328,7 +328,7 @@ Each purchase earns dNOS that can only be spent back on Nosana. On redemption th
 ## 6. Governance and Voting
 Although Nosana does not currently have a DAO, we consider this to be the first step towards such an entity.  In addition, the Nosana team feels strongly that the nature of these changes warrants input and validation from its stakeholders, namely those that hold the $NOS token.
 
-As such, the adoption of the contents of this proposal will be contingent on a binding vote, for which all Nosana token holders are eligible to participate, excluding company controlled tokens. Next to token holders, Stakers will be able to vote with a weight proportional to their xNOS score. This means that users that staked their tokens for a longer duration will have a stronger vote.
+As such, the adoption of the contents of this proposal will be contingent on a binding vote, for which all Nosana token holders are eligible to participate, excluding company controlled tokens. Next to token holders, Stakers will be able to vote based on the amount of NOS staked.
 
 The binding vote will be held in November 2025.  Further details of the voting mechanism and dates will be announced in the 1st week of November.
 
