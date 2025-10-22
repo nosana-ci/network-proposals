@@ -38,7 +38,7 @@ created: 2025-10-22
       - [4.2.3.1 Core Mechanics](#4231-core-mechanics)
       - [4.2.3.2 Operational Rules](#4232-operational-rules)
   - [4.3 Multi-Currency Payments](#43-multi-currency-payments)
-  - [4.4 Reputation Engine & Fair Job Scheduler](#44-reputation-engine--fair-job-scheduler)
+  - [4.4 Fair Job Scheduler](#44-fair-job-scheduler)
 - [5. Economic Flywheel](#5-economic-flywheel)
   - [5.1 Supply Side](#51-supply-side)
   - [5.2 Demand Side](#52-demand-side)
@@ -283,7 +283,7 @@ Multi‑currency payments would expand TAM, improve conversion for non‑crypto 
 
 ---
 
-### 4.4 Reputation Engine & Fair Job Scheduler
+### 4.4 Fair Job Scheduler
 
 > **Preface:  This is initial documentation presented within this proposal to state intent and to inform the community.  However, as this is not directly related to Tokenomics, the Fair Job Scheduler will not be voted on as part of this proposal, and will be presented as a separate proposal on a date to be determined.**
 
