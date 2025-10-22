@@ -120,7 +120,7 @@ $$S_{min,i} = \beta \frac{C_{m(i)}}{P_{NOS}} H$$
 
 #### 4.1.2 Operational Rules
 
-$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-hour grace period, denoted by $G$, to top up before rewards pause (and/or the host becomes ineligible). Governance can adjust '$\beta$' and '$H$' as market conditions change (risk appetite, utilisation, token volatility).
+$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-hour grace period, denoted by $G$, to top up before rewards pause (and/or the host becomes ineligible). Governance can adjust $\beta$ and $H$ as market conditions change (risk appetite, utilisation, token volatility).
 
 #### 4.1.3 Potential Impact
 
