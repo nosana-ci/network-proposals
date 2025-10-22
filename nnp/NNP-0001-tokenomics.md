@@ -263,6 +263,36 @@ Beyond the bootstrap seed, the Rebate Treasury is replenished by routing a fixed
 
 In short, the rebate operates on clear, daily pacing and sustainable funding: a 10% earn‑and‑burn loop seeded with 100k $NOS, governed by a visible daily cap, and topped up from fee revenue so it grows with real network activity rather than inflation.
 
+```mermaid
+flowchart TD
+    A[Client] -->|Pays for GPU Compute| B[Payment Processing]
+    B -->|NOS Payment| C[GPU Provider]
+    B -->|Rebate Rate| D[dNOS Credit]
+    B -->|NOS Fee| J[Fee Pool]
+    
+    D -->|Non-transferable Balance| E[Client dNOS Wallet]
+    
+    E -->|Future Job Payment| F[Apply dNOS at Checkout]
+    F -->|Release NOS| H[Rebate Treasury]
+    F -->|Burn dNOS| G[dNOS Burned]
+    
+    H -->|Equivalent NOS Value| C
+    
+    J[Fee Pool] -->|Replenish| H
+    K[Initial Seed] -->|Bootstrap| H
+    
+    L[Daily Budget Cap] -->|Governs| D
+    
+    style A fill:#e1f5fe
+    style C fill:#f3e5f5
+    style D fill:#fff3e0
+    style E fill:#fff3e0
+    style G fill:#ffebee
+    style H fill:#e8f5e8
+    style J fill:#e8f5e8
+    style K fill:#e8f5e8
+```
+
 ---
 
 ### 4.3 Multi-Currency Payments
