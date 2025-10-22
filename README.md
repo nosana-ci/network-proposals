@@ -3,7 +3,7 @@
 ![logo](https://github.com/nosana-ci/.github/raw/refs/heads/main/profile/img/Nosana_Logo_horizontal_color_white.svg#gh-dark-mode-only)
 ![logo](https://github.com/nosana-ci/.github/raw/refs/heads/main/profile/img/Nosana_Logo_horizontal_color_black.svg#gh-light-mode-only)
 
-Welcome! This repository is the home of Nosana Network Proposals (NNPs) — community-authored proposals that shape the future of the Nosana Network. NNPs document ideas, changes, and initiatives spanning technology, governance, economics, and ecosystem development.
+Welcome! This repository is the home of Nosana Network Proposals (NNPs) — project and community proposals that shape the future of the Nosana Network. NNPs document ideas, changes, and initiatives spanning technology, governance, economics, and ecosystem development.
 
 Our goals:
 - Provide a transparent, structured path for proposing and discussing changes.
