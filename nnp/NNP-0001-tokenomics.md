@@ -229,7 +229,7 @@ $$\mathrm{Reward}_{i} = \mathbf{1}\cdot\{\mathrm{SLA}_i\} \cdot C \cdot \mathrm{
 
 where $\mathbf{1}\cdot\{\mathrm{SLA}_i\}=1$ if host $i$ meets the SLA gates and $0$ otherwise.
 
-**Expended form.**
+**Expanded form.**
 
 $$\mathrm{Reward}_{i} = \underbrace{\mathbf{1}\cdot\{\mathrm{SLA}_i\}}_{\text{min-SLA-requirements}} \cdot \underbrace{\min\left(
   \frac{M_{\mathrm{total}}}{\sum_{j \in \mathcal{N}} B_j R_j S_j},
