@@ -12,6 +12,11 @@ Our goals:
 
 ---
 
+## Index of Current NNPs
+| # |Title |Category |Status |
+|--|--|--|--
+|0001|[Tokenomics](nnp/NNP-0001-tokenomics.md)|Technical/Protocol|*Draft Submission*
+
 ## What is an NNP?
 
 An NNP is a standardized document that proposes:
