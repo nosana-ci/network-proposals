@@ -255,7 +255,7 @@ The purpose of dNOS rebate mechanics is to turn every paid job into future purch
 
 #### 4.2.3.2 Operational Rules
 
-At launch, the treasury seeds a dedicated Rebate Treasury with 100,000 \$NOS so the dNOS loop has immediate liquidity. Each time a client pays for compute, 10% of the payment (the current rebate rate, $\rho = 0.10$) is credited to the buyer as dNOS, a non‑transferable balance they can apply to future jobs. When dNOS is spent, it is burned, and an amount equivalent to its USD value  in $NOS is released from the Rebate Treasury to the counterparty as part of settlement. This keeps circulating supply flat while turning every purchase into future, network‑bound purchasing power.
+At launch, the treasury seeds a dedicated Rebate Treasury with 100,000 NOS so the dNOS loop has immediate liquidity. Each time a client pays for compute, 10% of the payment (the current rebate rate, $\rho = 0.10$) is credited to the buyer as dNOS, a non‑transferable balance they can apply to future jobs. When dNOS is spent, it is burned, and an amount equivalent to its USD value  in $NOS is released from the Rebate Treasury to the counterparty as part of settlement. This keeps circulating supply flat while turning every purchase into future, network‑bound purchasing power.
 
 To keep the program predictable and non‑dilutive, rebates are subject to a daily budget sized to the platform's prevailing volume of GPU compute hours. Distribution is first‑come, first‑served: once the day's allocation has been granted in NOS, accrual pauses and resets the next day. The initial budget is calibrated to fully cover a 10% rebate at today's activity levels, and governance can adjust the cap as usage grows or market conditions change.
 
