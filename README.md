@@ -8,7 +8,7 @@ Welcome! This repository is the home of Nosana Network Proposals (NNPs) — comm
 Our goals:
 - Provide a transparent, structured path for proposing and discussing changes.
 - Ensure proposals are actionable, aligned with the mission, and technically feasible.
-- Empower the community to participate meaningfully in network evolution. 🧭
+- Empower the community to participate meaningfully in network evolution.
 
 ---
 
