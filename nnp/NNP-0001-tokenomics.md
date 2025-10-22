@@ -116,11 +116,12 @@ $$S_{min,i} = \beta \frac{C_{m(i)}}{P_{NOS}} H$$
 - $C_{m(i)}$: host price based on its market (USD per hour)
 - $P_{NOS}$: oracle price of NOS in USD
 - $H$: collateral window in hours (e.g., 336–720 for 14–30 days)
-- $\beta$: how much of that window’s gross revenue should be posted as collateral to determine the skin in the game.
+- $\beta$: how much of that window's gross revenue should be posted as collateral to determine the skin in the game.
+- $G$: grace period in hours for hosts to top up their stake when falling below minimum requirements (initially set to 360 hours, subject to governance adjustment)
 
 #### 4.1.2 Operational Rules
 
-$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-hour grace period, denoted by $G$, to top up before rewards pause (and/or the host becomes ineligible). Governance can adjust $\beta$ and $H$ as market conditions change (risk appetite, utilisation, token volatility).
+$S_{min,i}$ moves with the NOS price; if a host falls below the minimum, the operator has a fixed-time grace period, denoted by $G$, to top up before rewards pause (and/or the host becomes ineligible). Governance can adjust $\beta$ and $H$ as market conditions change (risk appetite, utilisation, token volatility).
 
 #### 4.1.3 Potential Impact
 
