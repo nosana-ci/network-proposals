@@ -239,6 +239,8 @@ $$\mathrm{Reward}_{i} = \underbrace{\mathbf{1}\cdot\{\mathrm{SLA}_i\}}_{\text{mi
 - Setting $w_P=w_Q=w_S=0$ yields an uptime-only model with a single global scale across all hosts.
 - Governance tunes the weights to balance service quality and over-collateralization.
 
+**Initial Release Strategy:** For the initial release of the host base incentive rewards, the uptime-only model will be adhered to (i.e., $w_P=w_Q=w_S=0$). The other variables (performance, quality, and stake boost) will be introduced once the system is fine-tuned, settled, and we have 100% confidence in the accuracy and reliability of those metrics.
+
 Project will set initial metrics; governance (DAO) will take over.
 
 ### 4.2.3 dNOS Rebate Mechanics
