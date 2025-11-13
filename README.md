@@ -15,7 +15,7 @@ Our goals:
 ## Index of Current NNPs
 | # |Title |Category |Status |
 |--|--|--|--
-|0001|[Tokenomics](nnp/NNP-0001-tokenomics.md)|Technical/Protocol|*Draft Submission*
+|0001|[Tokenomics](nnp/NNP-0001-tokenomics.md)|Technical/Protocol|*[Open for NNP Vote](https://vote.nosana.com)*|
 
 ## What is an NNP?
 
