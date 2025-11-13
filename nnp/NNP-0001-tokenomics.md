@@ -3,7 +3,7 @@ NNP: "0001"
 title: Tokenomics
 category: Technical/Protocol
 author: Nosana Team
-status: Draft Submission
+status: Open for NNP Vote
 created: 2025-10-22
 ---
 
@@ -362,5 +362,7 @@ Although Nosana does not currently have a DAO, we consider this to be the first 
 As such, the adoption of the contents of this proposal will be contingent on a binding vote, for which all Nosana token holders are eligible to participate, excluding company controlled tokens. Next to token holders, Stakers will be able to vote based on the amount of NOS staked.
 
 The binding vote will be held in November 2025.  Further details of the voting mechanism and dates will be announced in the 1st week of November.
+
+**Vote Link:** [vote.nosana.com](https://vote.nosana.com)
 
 ---
